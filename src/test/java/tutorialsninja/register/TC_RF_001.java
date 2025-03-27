@@ -14,7 +14,7 @@ public class TC_RF_001 {
 	@Test
 	public void registerWithMandatoryFields() {
 	
-
+		// Test Script for Register 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();

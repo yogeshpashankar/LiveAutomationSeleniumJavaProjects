@@ -21,11 +21,12 @@
   </dependencyManagement>
 
   <dependencies>
+
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.29.0</version>
+    <version>4.30.0</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -34,6 +35,13 @@
     <artifactId>testng</artifactId>
     <version>7.11.0</version>
     <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.6.2</version>
 </dependency>
 
   </dependencies>
